@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://media.licdn.com/dms/image/D5612AQEccUZxL2f7wA/article-cover_image-shrink_720_1280/0/1672861978009?e=2147483647&v=beta&t=jk-HADWMSMZYOi7fZWe61OxIzCIrIIA8lS9GqtlLMP4");
+   background-position: center; 
+   background-repeat: no-repeat;
+background-size:cover ;
+color:darkturquoise;
+
+}
+
+h1 {
+    color:whitesmoke;
+    background-color:lightskyblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 3px 3px 3px  darkblue;
+    text-transform:uppercase;
+    box-shadow:9px 5px 5px;
+    font-size:40px;
+}
+
+
+
+
+a{
+    color: black;
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: firebrick;
+}
+
+p::first-letter{
+    font-size: 200%;
+    color: black;
+}
+
+ul li:hover{
+    color:greenyellow;
+    background-color: white;
+}
+
+
+ul li::before {
+    content: "🌎";
+}
+
+ul li::after{
+    content: "🌎";
+}
+
+
+
